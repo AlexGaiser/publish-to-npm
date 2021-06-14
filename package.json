@@ -1,12 +1,20 @@
 {
   "name": "@alexgaiser/publish-npm-tutorial",
   "version": "0.0.1",
-  "description": "A command line tool for initializing a custom typescript project. Builds a simple project from a template with eslint, prettier, and jest set up for use with TS and ready to go.",
-  "main": "dist/cli.js",
+  "description": "A tutorial for how to publish a project to NPM",
+  "main": "dist/cjs.js",
+  "browser": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "jest",
     "watch": "tsc --watch",
-    "start:dev": "tsc && node dist/cli.js"
+    "start:dev": "tsc && node dist/cjs.js",
+    "build": "rollup -c",
+    "publish:prod": "npm run test && npm run ci:lint && npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,45 @@
+{
+  "name": "@alexgaiser/publish-npm-tutorial",
+  "version": "0.0.1",
+  "description": "A command line tool for initializing a custom typescript project. Builds a simple project from a template with eslint, prettier, and jest set up for use with TS and ready to go.",
+  "main": "dist/cli.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "tsc --watch",
+    "start:dev": "tsc && node dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGaiser/init-typescript-project.git"
+  },
+  "bin": "",
+  "keywords": [
+    "CLI",
+    "Typescript",
+    "productivity",
+    "easy",
+    "tool"
+  ],
+  "author": "Alex Gaiser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexGaiser/init-typescript-project/issues"
+  },
+  "homepage": "https://github.com/AlexGaiser/init-typescript-project#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.2",
+    "@types/yargs": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.4",
+    "prettier": "^2.3.1",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  }
+}

@@ -3,7 +3,7 @@
 ## Description
 
 This is a step-by-step guide for how to publish your first package to NPM.
-THe NPM registry is an amazing tool, and every Javascript developer should learn to use it for both their personal and professional projects.
+The NPM registry is an amazing tool, and every Javascript developer should learn to use it for both their personal and professional projects.
 
 For the sake of this guide I am assuming you already have `npm` (at least version 6) and `node` (at least version 14) installed on your computer. If you do not, please see [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more informaion on how to install `node` and `npm` onto your environment. 
 

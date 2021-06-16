@@ -1,4 +1,5 @@
-# publish-to-npm
+# Publishing a Package to NPM 
+
 
 ## Description
 

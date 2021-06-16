@@ -57,9 +57,9 @@ This repository is set up to serve as a template for the project structure I hav
 
 ### Setting up Rollup.js
 
-Rollup is the application we will be using to bundle this application. Babel is a good alternative to Rollup, however Rollup is simpler and works well with Typescript.
+Rollup is what we will be using to bundle this application. Babel is a good alternative to Rollup, but Rollup is simpler and works well with Typescript so that is what we will be using for our demo.
 
-Since we have installed the necessary dependencies, we can skip to setting up the config file.
+Since we have installed the necessary dependencies, we can move on to setting up the config file:
 1. Create a file called `rollup.config.js`
 2. Add the following to your `rollup.config.js` file
 
@@ -106,17 +106,20 @@ There are several properties of our `package.json` that we will need to configur
 
 Before we publish a package to npm, we can test installing and using it locally. 
 
-1. Create a new browser or Node Javascript/Typescript project in a separate directory
-2. run `npm install <path/to/mypackage>` (for example `npm install ../../publish-to-npm`)
-3. You should see something like the following in your package.json
+1. To prepare your project to be installed from a local directory navigate to your project's root
+2. Run `npm pack`. This will create a tar file identical to the one that will be deployed to npm when you publish. 
+3. Create a new browser or Node project in a separate directory
+4. run `npm install <path/to/mypackage.tgz>` (for example `npm install ../../alexgaiser-publish-npm-tutorial-0.0.4.tgz`)
+5. You should see something like the following in your package.json
 ```
   "dependencies": {
     "@alexgaiser/publish-npm-tutorial": "file:../../publish-to-npm"
   }
 ```
-4. This method will work identically as if you had published to npm and installed from there. Thus it is a great way to quickly and safely test your package before publishing it.
-5. In your environment import your package just like you would any other package.
-6. If you used this tutorial you should be able to import the `sayHello()` method and run it.
+4. This method will let you test your package as if you had published to npm and installed from there. Thus it is a great way to quickly and safely test your package before publishing it.
+5. In your project import your package just like you would any other package.
+6. If you used this tutorial you should be able to import the `sayHello()` method and run it. 
+7. Because we compiled from Typescript, you should also be able to see type information related to the method. You can check this by confirming an `index.d.ts` file is included in the installed package.
 
 ### Setting up an NPM account
 

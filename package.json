@@ -1,6 +1,6 @@
 {
   "name": "@alexgaiser/publish-npm-tutorial",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A tutorial for how to publish a project to NPM",
   "main": "dist/cjs.js",
   "browser": "dist/index.js",

@@ -11,7 +11,7 @@
 
 ## Description
 
-This is a step-by-step guide for how to publish your first package to NPM. And the end of this tutorial you will be able to publish an npm package that will:
+This is a step-by-step guide for how to publish your first package to NPM. By the end of this tutorial you will be able to publish an npm package that will:
 
 1. Run in Typescript with all your type information intact
 2. Run in Javascript with type information available for reference

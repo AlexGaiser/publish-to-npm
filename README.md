@@ -1,6 +1,9 @@
 # Publishing a Package to NPM With Typescript
+<span>
+  <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/npm-logo.png" height="100px"/>
+  <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/typescript-logo.png" height="100px"/>
+</span> 
 
-<img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/npm-logo.png" width="300px"/>
 
 ## Description
 

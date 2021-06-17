@@ -1,5 +1,6 @@
-# Publishing a Package to NPM 
+# Publishing a Package to NPM With Typescript
 
+<img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/npm-logo.png" width="300px"/>
 
 ## Description
 

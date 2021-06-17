@@ -1,13 +1,24 @@
 # Publishing a Package to NPM With Typescript
 <span>
-  <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/npm-logo.png" height="100px"/>
   <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/typescript-logo.png" height="100px"/>
+  <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/right-arrow.png" height="100px"/>
+  <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/npm-logo.png" height="100px"/>
+  <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/right-arrow.png" height="100px"/>
+  <img src="https://github.com/AlexGaiser/publish-to-npm/blob/main/assets/money-bag.png" height="100px"/>
+  
 </span> 
 
 
 ## Description
 
-This is a step-by-step guide for how to publish your first package to NPM.
+This is a step-by-step guide for how to publish your first package to NPM. And the end of this tutorial you will be able to publish an npm package that will:
+
+1. Run in Typescript with all your type information intact
+2. Run in Javascript with type information available for reference
+3. Run in the Browser
+4. Run in Node
+5. Be freely available for anyone to install from the NPM registry.
+
 The NPM registry is an amazing tool, and every Javascript developer should learn to use it for both their personal and professional projects.
 
 For the sake of this guide I am assuming you already have `npm` (at least version 6) and `node` (at least version 14) installed on your computer. If you do not, please see [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more informaion on how to install `node` and `npm` onto your environment. 

@@ -18,7 +18,7 @@ This is a step-by-step guide for how to publish your first package to NPM. By th
 2. Run in Javascript with type information available for reference
 3. Run in the Browser
 4. Run in Node
-5. Be freely available for anyone to install from the NPM registry.
+5. Be freely available for anyone to install to use in their projects
 
 For the sake of this guide I am assuming you already have `npm` (at least version 6) and `node` (at least version 14) installed on your computer. If you do not, please see [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more informaion on how to install `node` and `npm` onto your environment. 
 

@@ -10,6 +10,7 @@
 
 
 ## Description
+The NPM registry is an amazing tool, and every Javascript developer should learn to use it for both their personal and professional projects.
 
 This is a step-by-step guide for how to publish your first package to NPM. By the end of this tutorial you will be able to publish an npm package that will:
 
@@ -18,8 +19,6 @@ This is a step-by-step guide for how to publish your first package to NPM. By th
 3. Run in the Browser
 4. Run in Node
 5. Be freely available for anyone to install from the NPM registry.
-
-The NPM registry is an amazing tool, and every Javascript developer should learn to use it for both their personal and professional projects.
 
 For the sake of this guide I am assuming you already have `npm` (at least version 6) and `node` (at least version 14) installed on your computer. If you do not, please see [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more informaion on how to install `node` and `npm` onto your environment. 
 

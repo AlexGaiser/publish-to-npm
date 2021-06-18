@@ -20,7 +20,7 @@ This is a step-by-step guide for how to publish your first package to NPM. By th
 4. Run in Node
 5. Be freely available for anyone to install to use in their projects
 
-For the sake of this guide I am assuming you already have `npm` (at least version 6) and `node` (at least version 14) installed on your computer. If you do not, please see [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more informaion on how to install `node` and `npm` onto your environment. 
+For the sake of this guide I am assuming you already have `npm` (at least version 6) and `node` (at least version 14) installed on your computer. If you do not, please see [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more informaion on how to setup `node` and `npm` onto your environment. 
 
 Note: while this guide should be platform agnostic, it was written and tested using an Apple Computer running MacOS. If you have an issue with this guide on another platform, please create an issue [here](https://github.com/AlexGaiser/publish-to-npm/issues) and I will make sure to add the necessary information.
 
@@ -68,7 +68,7 @@ After setting up our project, here is the list of dependencies we will be using:
 ```
 At minimum you will need is rollup and its related plugins.
 
-This repository is set up to serve as a template for the project structure I have found most convenient. Simply clone it and you will have a basic Typescript project set up and ready to use. All business logic is contained inside the `lib/` directory and `lib/index.ts` is the application's entry point.
+This repository is set up to serve as a template for the project structure I have found most convenient for deploying to npm. Simply clone it and you will have a basic Typescript project set up and ready to use. All business logic is contained inside the `lib/` directory and `lib/index.ts` is the application's entry point.
 
 ### Setting up Rollup.js
 
